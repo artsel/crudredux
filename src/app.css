@@ -15,3 +15,44 @@ div.app {
 	color: #604010;
 	font-weight: bold;
 }
+
+li.user-item{
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+
+}
+
+.list-users-items {padding: 5px; display: flex; }
+
+li.user-item {
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+li.user-item .title {
+    padding: 10px;
+    color: #d57339;
+    font-size: 10px;
+    background-color: #ffcd8f;
+}
+
+li.user-item .names {
+    padding: 10px;
+    color: #8c5b00;
+    font-size: 14px;
+    background-color: #d1ad5d;
+}
+
+
+li.user-item .id {padding: 3px;  font-size: 10px;}
+li.user-item .year {padding: 3px;  font-size: 10px;}
+li.user-item .username {padding: 3px;  font-size: 12px;}
+
+
+li.user-item .firstname {padding: 5px;}
+li.user-item .lastname {padding: 5px;}
+

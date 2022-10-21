@@ -4,6 +4,7 @@
   "description": "Crud redux App",
   "main": "app.js",
   "author":"artsel",
+  "license": "ISC",
   "scripts": {
     "test": "test",
     "start": "webpack-dev-server --mode=development --open",
@@ -18,8 +19,6 @@
     "redux",
     "crud"
   ],
-  "author": "Artikhovich",
-  "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.4",
