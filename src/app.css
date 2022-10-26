@@ -7,12 +7,9 @@ div.app {
 	color: red;
 	font-size: 32px;
 }
-.game {
-	font-size: 24px;
-}
 
-.dizzi {
-	color: #604010;
+.app-crud-users {
+	color: #000000;
 	font-weight: bold;
 }
 

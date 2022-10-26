@@ -1,34 +1,18 @@
 import React from "react";
-/*
-const usersDBFull = [
-{id:1, username:'Art', firstname:'Serge', lastname:'Artikhovich',year:'1974'},
-{id:2, username:'Begenot', firstname:'Boris', lastname:'Beginner',year:'1980'},
-{id:3, username:'Dry', firstname:'Diana', lastname:'Dry',year:'1996'}
-];
+import usersDB from "../features/usersDBFull.js";
 
-*/
 const usersDBFull = [
 {id:1, username:"Art", firstname:"Serge", lastname:"Artikhovich", year:1974 },
-{id:2,username:"Begenot",firstname:"Boris",lastname:"Beginner",year:1980},
-{id:3,username:"Dry",firstname:"Diana",lastname:"Dry",year:1996}
+{id:2, username:"Begenot",firstname:"Boris",lastname:"Beginner",year:1980},
+{id:3, username:"Dry",firstname:"Diana",lastname:"Dry",year:1996}
 ];
-
-
-  const validChildrenToRender = {
-    string: 'string',
-    number: 12,
-    element: <div>an element!</div>,
-    funcThatReturnsValidChild: () => <div>a component!</div>,
-  }
-
-const usersDB = ["Art", "Begenot", "Dry"];
 
 export default function User(){
     return(
         <div className="user">
             <ul className="list-users-items">
 
-            {usersDBFull.map((user) =>
+            {usersDB.map((user) =>
                     <li 
                         key={user.id}
                         className="user-item"
@@ -45,6 +29,6 @@ export default function User(){
                     </li>
                 )
             }</ul>
-            </div>
+        </div>
     );
 }
