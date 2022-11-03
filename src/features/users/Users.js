@@ -13,6 +13,8 @@ export function Users() {
 				key={user.id}
 				id={user.id}
 				username={user.username}
+				year={user.year}
+				{...user}
 				/>
 				))}
 				</ul>
